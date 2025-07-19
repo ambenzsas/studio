@@ -1,0 +1,43 @@
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+
+const categories = [
+  { title: "Motor", description: "Componentes esenciales para mantener el corazón de tu vehículo en su máximo rendimiento." },
+  { title: "Frenos", description: "Sistemas de frenado que garantizan la máxima seguridad y respuesta en cualquier condición." },
+  { title: "Suspensión", description: "Piezas clave para un manejo confortable, estable y preciso como el primer día." },
+  { title: "Carrocería", description: "Partes originales para mantener la estética impecable y la estructura de tu Mercedes." },
+  { title: "Filtros y Fluidos", description: "Productos específicos para proteger y prolongar la vida útil de todos los sistemas." },
+  { title: "Accesorios", description: "Detalles originales para personalizar y mejorar la funcionalidad de tu vehículo." },
+];
+
+export default function Services() {
+  return (
+    <section id="servicios" className="py-20 bg-background">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl">Categorías de Repuestos</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
+            Distribuimos una amplia gama de repuestos originales para cubrir todas las necesidades de tu Mercedes.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {categories.map((category) => (
+            <Card key={category.title} className="group overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
+              <CardHeader>
+                <CardTitle>{category.title}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">{category.description}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+        <div className="text-center mt-12">
+          <Button variant="outline" size="lg" disabled>
+            Ver catálogo completo (Próximamente)
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+}
