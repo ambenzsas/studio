@@ -12,6 +12,11 @@ const heroImages = [
         hint: "classic mercedes car"
     },
     {
+        src: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop",
+        alt: "Mercedes-Benz deportivo amarillo",
+        hint: "yellow mercedes sports"
+    },
+    {
         src: "https://images.unsplash.com/photo-1617808934350-1c5750ee3a85?q=80&w=2070&auto=format&fit=crop",
         alt: "Mercedes-Benz modelo moderno en una carretera",
         hint: "modern mercedes road"
@@ -62,18 +67,6 @@ export default function Hero() {
           <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-200 md:text-xl drop-shadow-md">
             Calidad, garantía y la precisión alemana que tu Mercedes-Benz merece. Somos tu distribuidor de confianza.
           </p>
-          <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
-            <Button asChild size="lg" className="text-lg">
-              <Link href="#servicios">
-                Ver Catálogo
-              </Link>
-            </Button>
-            <Button asChild size="lg" variant="secondary">
-              <Link href="#contacto">
-                Contáctanos
-              </Link>
-            </Button>
-          </div>
         </div>
     </section>
   );
