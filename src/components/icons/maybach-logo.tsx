@@ -10,7 +10,7 @@ export function MaybachLogo(props: SVGProps<SVGSVGElement>) {
             aria-label="Logo de Mercedes-Maybach"
             {...props}
         >
-            <text x="0" y="40" fontFamily="'Inter', sans-serif" fontSize="40" fontWeight="800" fill="currentColor">MAYBACH</text>
+            <text x="0" y="40" fontFamily="Inter, sans-serif" fontSize="40" fontWeight="800" fill="currentColor">MAYBACH</text>
         </svg>
     )
 }

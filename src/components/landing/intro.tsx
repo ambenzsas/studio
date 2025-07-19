@@ -1,43 +1,45 @@
-import { BadgeDollarSign, ShieldCheck, Truck, Wrench } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ShieldCheck, Wrench, Truck, BadgePercent } from "lucide-react";
 
 const features = [
   {
     icon: <ShieldCheck className="h-10 w-10 text-primary" />,
-    title: "Autenticidad",
-    description: "Solo piezas 100% originales con garantía de fábrica.",
+    title: "Autenticidad Garantizada",
+    description: "Solo piezas 100% originales con la garantía oficial de fábrica Mercedes-Benz.",
   },
   {
     icon: <Wrench className="h-10 w-10 text-primary" />,
-    title: "Asesoría Técnica",
-    description: "Expertos a tu disposición para identificar la pieza exacta.",
+    title: "Asesoría Técnica Experta",
+    description: "Nuestro equipo está a tu disposición para identificar la pieza exacta que necesitas.",
   },
   {
     icon: <Truck className="h-10 w-10 text-primary" />,
-    title: "Entrega Rápida",
-    description: "Envíos eficientes a todo el país para que no detengas tu marcha.",
+    title: "Entrega Rápida y Segura",
+    description: "Envíos eficientes a todo el país para que no detengas tu marcha ni un minuto más.",
   },
   {
-    icon: <BadgeDollarSign className="h-10 w-10 text-primary" />,
+    icon: <BadgePercent className="h-10 w-10 text-primary" />,
     title: "Precios Competitivos",
-    description: "La mejor relación calidad-precio del mercado en repuestos genuinos.",
+    description: "Ofrecemos la mejor relación calidad-precio del mercado en repuestos genuinos.",
   },
 ];
 
 export default function Intro() {
   return (
-    <section className="bg-card py-20">
+    <section className="bg-background py-20 lg:py-32">
       <div className="container mx-auto px-6">
-        <p className="mx-auto max-w-3xl text-center text-lg text-muted-foreground">
-          Somos tu aliado de confianza, dedicados a proveer exclusivamente repuestos originales Mercedes-Benz. Nuestra misión es garantizar que tu vehículo mantenga el rendimiento, la seguridad y la elegancia con la que fue diseñado.
-        </p>
-        <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="text-center max-w-4xl mx-auto">
+          <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl">La Precisión que tu Mercedes-Benz Merece</h2>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Somos tu aliado de confianza, dedicados a proveer exclusivamente repuestos originales Mercedes-Benz. Nuestra misión es garantizar que tu vehículo mantenga el rendimiento, la seguridad y la elegancia con la que fue diseñado.
+          </p>
+        </div>
+        <div className="mt-20 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {features.map((feature) => (
-            <div key={feature.title} className="flex flex-col items-center text-center">
-              <div className="mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
+            <div key={feature.title} className="flex flex-col items-center text-center p-6 rounded-lg transition-all hover:bg-card hover:shadow-lg">
+              <div className="mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-bold">{feature.title}</h3>
+              <h3 className="text-xl font-bold text-foreground">{feature.title}</h3>
               <p className="mt-2 text-muted-foreground">{feature.description}</p>
             </div>
           ))}

@@ -10,7 +10,7 @@ export function EqLogo(props: SVGProps<SVGSVGElement>) {
             aria-label="Logo de Mercedes-EQ"
             {...props}
         >
-            <text x="0" y="40" fontFamily="'Inter', sans-serif" fontSize="40" fontWeight="800" fill="currentColor">EQ</text>
+            <text x="0" y="40" fontFamily="Inter, sans-serif" fontSize="40" fontWeight="800" fill="currentColor">EQ</text>
         </svg>
     )
 }

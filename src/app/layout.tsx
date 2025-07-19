@@ -1,10 +1,17 @@
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
+
 export const metadata: Metadata = {
-  title: 'Distribuidora Oficial de Repuestos Mercedes | Calidad y Garantía',
-  description: 'Somos tu aliado de confianza, dedicados a proveer exclusivamente repuestos originales Mercedes-Benz. Calidad y garantía para tu vehículo.',
+  title: 'AutoPartes Finder | Repuestos Originales Mercedes-Benz',
+  description: 'Distribuidor de confianza para repuestos originales Mercedes-Benz. Garantizamos calidad, precisión y el mejor servicio para tu vehículo.',
 };
 
 export default function RootLayout({
@@ -13,13 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
-      </head>
-      <body className="font-body antialiased">
+    <html lang="es" className={inter.variable}>
+      <body className="bg-background text-foreground antialiased">
         {children}
         <Toaster />
       </body>

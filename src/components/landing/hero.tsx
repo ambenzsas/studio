@@ -1,34 +1,32 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative h-[80vh] min-h-[500px] w-full bg-cover bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1617808934350-1c5750ee3a85?q=80&w=2070&auto=format&fit=crop')] text-white" data-ai-hint="mercedes benz modern">
-      <div className="absolute inset-0 bg-black/60" />
-      <div className="relative z-10 flex h-full items-center justify-center">
+    <section className="relative h-screen min-h-[600px] w-full bg-cover bg-center bg-no-repeat bg-fixed" style={{backgroundImage: "url('https://placehold.co/1920x1080.png')"}} data-ai-hint="mercedes car modern">
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-black/30" />
+      <div className="relative z-10 flex h-full items-center justify-center text-white">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl font-extrabold leading-tight md:text-6xl">
+          <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
             Distribuidora Oficial de Repuestos Mercedes
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-100/90 md:text-xl">
+          <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-200 md:text-xl">
             Calidad y garantía para tu vehículo. La precisión alemana que tu
-            Mercedes-Benz merece.
+            Mercedes-Benz merece, a tu alcance.
           </p>
-          <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
-            <Link href="#nosotros">
-              <Button size="lg" className="bg-white text-black hover:bg-slate-200 px-8 py-3 text-lg">
+          <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
+            <Button asChild size="lg" className="text-lg">
+              <Link href="#ai-finder">
+                Buscar Repuesto
+                <ChevronRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
+            <Button asChild size="lg" variant="outline" className="border-white bg-transparent text-white backdrop-blur-sm transition-colors hover:bg-white hover:text-black">
+              <Link href="#nosotros">
                 Conócenos
-              </Button>
-            </Link>
-            <Link href="#contacto">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white bg-transparent text-white backdrop-blur-sm transition-colors hover:bg-white hover:text-black"
-              >
-                Solicita Información
-              </Button>
-            </Link>
+              </Link>
+            </Button>
           </div>
         </div>
       </div>

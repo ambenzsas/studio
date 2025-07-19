@@ -10,7 +10,7 @@ export function AmgLogo(props: SVGProps<SVGSVGElement>) {
             aria-label="Logo de Mercedes-AMG"
             {...props}
         >
-            <text x="0" y="40" fontFamily="'Inter', sans-serif" fontSize="40" fontWeight="800" fill="currentColor">AMG</text>
+            <text x="0" y="40" fontFamily="Inter, sans-serif" fontSize="40" fontWeight="800" fill="currentColor">AMG</text>
         </svg>
     )
 }
