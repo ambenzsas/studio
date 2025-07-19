@@ -7,21 +7,21 @@ const testimonials = [
     quote: "La calidad de los repuestos es insuperable y el servicio al cliente es de primera. Encontré todo para mi C200 en un solo lugar. ¡Recomendadísimos!",
     name: "Juan Pérez",
     title: "Propietario, Mercedes-Benz C200",
-    avatar: "https://placehold.co/100x100.png",
+    avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop",
     hint: "man smiling"
   },
   {
     quote: "Como taller, necesitamos proveedores confiables. distrimercedes nunca nos ha fallado. Entregas a tiempo y la certeza de que estamos instalando piezas originales.",
     name: "Taller Auto-Fix",
     title: "Cliente Corporativo",
-    avatar: "https://placehold.co/100x100.png",
+    avatar: "https://images.unsplash.com/photo-1542628652-245cce695462?q=80&w=2070&auto=format&fit=crop",
     hint: "mechanic"
   },
   {
     quote: "El equipo de asesoría me ayudó a identificar una pieza que llevaba semanas buscando. Su conocimiento técnico es impresionante. ¡Gracias!",
     name: "Luisa Fernanda",
     title: "Propietaria, Mercedes-Benz GLE",
-    avatar: "https://placehold.co/100x100.png",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop",
     hint: "woman professional"
   },
 ];
@@ -44,7 +44,7 @@ export default function Testimonials() {
                 <p className="text-muted-foreground mb-6 italic text-base">"{testimonial.quote}"</p>
               </CardContent>
               <div className="bg-black/20 px-8 py-4 flex items-center gap-4 border-t border-border">
-                  <Image src={testimonial.avatar} alt={testimonial.name} width={50} height={50} className="rounded-full" data-ai-hint={testimonial.hint}/>
+                  <Image src={testimonial.avatar} alt={testimonial.name} width={50} height={50} className="rounded-full object-cover aspect-square" data-ai-hint={testimonial.hint}/>
                   <div>
                     <p className="font-bold text-foreground">{testimonial.name}</p>
                     <p className="text-sm text-muted-foreground">{testimonial.title}</p>

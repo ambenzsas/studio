@@ -7,7 +7,7 @@ export default function About() {
         <div className="flex flex-col items-center gap-12 lg:flex-row-reverse lg:gap-16">
           <div className="lg:w-1/2">
             <Image
-              src="https://placehold.co/600x400.png"
+              src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9e?q=80&w=2070&auto=format&fit=crop"
               alt="Taller de distrimercedes"
               width={600}
               height={400}

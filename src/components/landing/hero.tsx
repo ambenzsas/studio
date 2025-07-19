@@ -7,17 +7,17 @@ import Autoplay from "embla-carousel-autoplay";
 
 const heroImages = [
     {
-        src: "https://placehold.co/1920x1080.png",
+        src: "https://images.unsplash.com/photo-1617808934350-1c5750ee3a85?q=80&w=2070&auto=format&fit=crop",
         alt: "Mercedes-Benz modelo moderno en una carretera",
         hint: "modern mercedes road"
     },
     {
-        src: "https://placehold.co/1920x1080.png",
+        src: "https://images.unsplash.com/photo-1576441050859-655a6390fd8f?q=80&w=2070&auto=format&fit=crop",
         alt: "Mercedes-Benz clásico de los años 2000",
         hint: "classic mercedes car"
     },
     {
-        src: "https://placehold.co/1920x1080.png",
+        src: "https://images.unsplash.com/photo-1541426345369-1d2f8875567a?q=80&w=2070&auto=format&fit=crop",
         alt: "Detalle de un repuesto original de Mercedes-Benz",
         hint: "car part detail"
     }
