@@ -1,7 +1,6 @@
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
@@ -13,7 +12,7 @@ export default function Contact() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl">Ponte en Contacto</h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            ¿Listo para cotizar o tienes alguna consulta? Nuestro equipo de expertos está listo para ayudarte a encontrar la pieza perfecta.
+            ¿Necesitas una cotización o tienes alguna consulta? Nuestro equipo de expertos está listo para ayudarte a encontrar la pieza perfecta para tu Mercedes.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row gap-12 items-start">
@@ -24,20 +23,20 @@ export default function Contact() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-muted-foreground mb-2">Nombre</label>
-                    <Input id="name" type="text" placeholder="Tu nombre completo" />
+                    <Input id="name" name="name" type="text" placeholder="Tu nombre completo" className="bg-background" />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-muted-foreground mb-2">Email</label>
-                    <Input id="email" type="email" placeholder="tu@email.com" />
+                    <label htmlFor="email" className="block text-sm font-medium text-muted-foreground mb-2">Correo</label>
+                    <Input id="email" name="email" type="email" placeholder="tu@email.com" className="bg-background" />
                   </div>
                 </div>
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-muted-foreground mb-2">Teléfono</label>
-                  <Input id="phone" type="tel" placeholder="Tu número de teléfono" />
+                  <Input id="phone" name="phone" type="tel" placeholder="Tu número de teléfono" className="bg-background"/>
                 </div>
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-muted-foreground mb-2">Mensaje</label>
-                  <Textarea id="message" placeholder="¿En qué podemos ayudarte?" rows={5} />
+                  <Textarea id="message" name="message" placeholder="¿En qué podemos ayudarte?" rows={5} className="bg-background"/>
                 </div>
                 <div className="text-center pt-2">
                   <Button type="submit" size="lg" className="w-full">Enviar Mensaje</Button>
@@ -48,45 +47,40 @@ export default function Contact() {
           <div className="lg:w-1/2 w-full">
             <div className="space-y-6">
                 <h3 className="text-2xl font-bold mb-6 text-foreground">Información de Contacto</h3>
-                <div className="space-y-4">
+                <div className="space-y-4 text-lg">
                   <div className="flex items-start gap-4">
                     <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground">Dirección</p>
-                      <p className="text-muted-foreground">Av. de la Precisión 123, Distrito Automotriz, Ciudad Capital</p>
+                      <p className="text-muted-foreground">Cr 127 14b‑70, Bogotá, Colombia</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
                     <Phone className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground">Teléfono</p>
-                      <p className="text-muted-foreground">+57 300 123 4567</p>
+                      <p className="text-muted-foreground">+57 300 300 3000</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
                     <Mail className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
-                      <Link href="mailto:contacto@autopartesfinder.com" className="text-primary hover:underline">contacto@autopartesfinder.com</Link>
-                    </div>
-                  </div>
-                   <div className="flex items-start gap-4">
-                    <Clock className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-foreground">Horarios de Atención</p>
-                      <p className="text-muted-foreground">Lunes a Viernes: 8:00 AM - 6:00 PM | Sábados: 9:00 AM - 1:00 PM</p>
+                      <Link href="mailto:contacto@distrimercedes.com" className="text-primary hover:underline">contacto@distrimercedes.com</Link>
                     </div>
                   </div>
                 </div>
                 <div className="pt-4">
-                    <Image
-                    src="https://placehold.co/600x400.png"
-                    alt="Mapa de ubicación de la tienda"
-                    width={600}
-                    height={400}
-                    className="rounded-lg shadow-md w-full h-64 object-cover"
-                    data-ai-hint="city map"
-                    />
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.578632615461!2d-74.1541627!3d4.6691456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9cf5e83c276b%3A0x8633e61f0e976c6c!2sCra.+127+%2314b-70%2C+Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1623708552345!5m2!1ses!2sco"
+                        width="100%" 
+                        height="350" 
+                        style={{border:0}} 
+                        allowFullScreen={false}
+                        loading="lazy" 
+                        referrerPolicy="no-referrer-when-downgrade"
+                        className="rounded-lg shadow-md"
+                    ></iframe>
                 </div>
             </div>
           </div>

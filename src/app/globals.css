@@ -4,48 +4,65 @@
 
 @layer base {
   :root {
-    --background: 240 5% 96%; /* Light Gray */
-    --foreground: 240 6% 10%;
-    --card: 240 5% 96%;
-    --card-foreground: 240 6% 10%;
-    --popover: 240 5% 96%;
-    --popover-foreground: 240 6% 10%;
-    --primary: 204 92% 40%; /* Mercedes-Benz Blue (#0077CC) */
-    --primary-foreground: 0 0% 100%;
-    --secondary: 240 5% 84%;
-    --secondary-foreground: 240 6% 10%;
-    --muted: 240 5% 65%;
-    --muted-foreground: 240 4% 46%;
-    --accent: 198 100% 45%; /* Analogous Blue (#00A1E4) */
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 240 6% 90%;
-    --input: 240 6% 90%;
-    --ring: 204 92% 40%;
+    --background: 240 10% 3.9%; /* Negro/Gris muy oscuro */
+    --foreground: 0 0% 98%;
+
+    --card: 240 4% 10%;
+    --card-foreground: 0 0% 98%;
+ 
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+ 
+    --primary: 0 62.8% 30.6%; /* Rojo oscuro */
+    --primary-foreground: 0 0% 98%;
+ 
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+ 
+    --muted: 240 4% 25%;
+    --muted-foreground: 240 5% 64.9%;
+ 
+    --accent: 0 0% 50%; /* Plata/Gris */
+    --accent-foreground: 0 0% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 4% 18%;
+    --input: 240 4% 18%;
+    --ring: 0 72.2% 50.6%;
+
     --radius: 0.5rem;
   }
  
   .dark {
-    --background: 240 6% 10%;
+    --background: 240 10% 3.9%; /* Negro/Gris muy oscuro */
     --foreground: 0 0% 98%;
-    --card: 240 6% 10%;
+
+    --card: 240 4% 10%;
     --card-foreground: 0 0% 98%;
-    --popover: 240 6% 10%;
+ 
+    --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
-    --primary: 204 92% 50%;
-    --primary-foreground: 0 0% 100%;
+ 
+    --primary: 0 72.2% 50.6%; /* Rojo oscuro más brillante para modo oscuro */
+    --primary-foreground: 0 0% 98%;
+ 
     --secondary: 240 4% 16%;
     --secondary-foreground: 0 0% 98%;
-    --muted: 240 4% 16%;
-    --muted-foreground: 240 4% 65%;
-    --accent: 198 100% 55%;
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 63% 31%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 240 4% 16%;
-    --input: 240 4% 16%;
-    --ring: 204 92% 50%;
+ 
+    --muted: 240 4% 25%;
+    --muted-foreground: 240 5% 64.9%;
+ 
+    --accent: 0 0% 60%; /* Plata/Gris más claro */
+    --accent-foreground: 0 0% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 4% 18%;
+    --input: 240 4% 18%;
+    --ring: 0 72.2% 50.6%;
   }
 }
 

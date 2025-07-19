@@ -1,20 +1,25 @@
-import { CheckCircle, Award, Globe, Users } from "lucide-react";
+import { CheckCircle, Award, Globe, Users, TrendingUp } from "lucide-react";
 
 const advantages = [
     {
         icon: <CheckCircle className="w-10 h-10 text-primary" />,
-        title: "Repuestos 100% Originales",
-        description: "Cada pieza viene directamente del fabricante, asegurando un ajuste perfecto y el rendimiento que esperas de Mercedes-Benz."
+        title: "Originalidad Certificada",
+        description: "Cada pieza está certificada por Mercedes-Benz, asegurando un ajuste perfecto y rendimiento óptimo."
     },
     {
         icon: <Award className="w-10 h-10 text-primary" />,
-        title: "Garantía de Fábrica Completa",
-        description: "Tu inversión está protegida. Todos nuestros productos cuentan con la garantía oficial, dándote total tranquilidad."
+        title: "Calidad Garantizada",
+        description: "Tu inversión está protegida. Todos nuestros productos cuentan con la garantía oficial de fábrica."
     },
     {
         icon: <Globe className="w-10 h-10 text-primary" />,
-        title: "Envíos a Todo el País",
-        description: "No importa dónde te encuentres, llevamos la calidad Mercedes-Benz hasta la puerta de tu taller o casa de forma rápida y segura."
+        title: "Entregas Rápidas",
+        description: "Recibe tus repuestos en tiempo récord en cualquier parte del país. Sabemos que tu tiempo es valioso."
+    },
+    {
+        icon: <TrendingUp className="w-10 h-10 text-primary" />,
+        title: "Precios Competitivos",
+        description: "Ofrecemos la mejor relación calidad-precio del mercado, sin sacrificar la autenticidad de los repuestos."
     },
     {
         icon: <Users className="w-10 h-10 text-primary" />,
@@ -25,18 +30,18 @@ const advantages = [
 
 export default function WhyUs() {
     return (
-        <section id="ventajas" className="py-20 lg:py-32 bg-card">
+        <section id="ventajas" className="py-20 lg:py-32 bg-background">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl">¿Por Qué Elegirnos?</h2>
+                    <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl">¿Por Qué Elegir distrimercedes?</h2>
                     <p className="mx-auto mt-4 max-w-3xl text-lg text-muted-foreground">
-                        Más que un proveedor, somos tu socio estratégico. Te ofrecemos más que repuestos, te ofrecemos tranquilidad, confianza y el respaldo de la excelencia.
+                        Más que un proveedor, somos tu socio estratégico. Te ofrecemos tranquilidad, confianza y el respaldo de la excelencia alemana.
                     </p>
                 </div>
                 <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-x-12 gap-y-12">
                     {advantages.map((advantage) => (
                         <div key={advantage.title} className="flex items-start space-x-6">
-                            <div className="flex-shrink-0">
+                            <div className="flex-shrink-0 bg-card p-4 rounded-full shadow-md">
                                 {advantage.icon}
                             </div>
                             <div>

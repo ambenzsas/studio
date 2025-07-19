@@ -10,10 +10,10 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "#inicio", label: "Inicio" },
-  { href: "#ai-finder", label: "Buscador IA" },
   { href: "#nosotros", label: "Nosotros" },
   { href: "#servicios", label: "Servicios" },
   { href: "#ventajas", label: "Ventajas" },
+  { href: "#testimonios", label: "Testimonios" },
 ];
 
 export default function Header() {
@@ -39,12 +39,6 @@ export default function Header() {
       <div className="container flex h-20 items-center">
         <Link href="#inicio" className="flex items-center space-x-2 mr-6">
           <Logo />
-          <span className={cn(
-            "text-xl font-bold transition-colors",
-            isScrolled ? "text-foreground" : "text-white"
-            )}>
-            AutoPartes Finder
-          </span>
         </Link>
         
         <nav className="hidden items-center space-x-6 md:flex">
@@ -54,7 +48,7 @@ export default function Header() {
               href={link.href}
               className={cn(
                 "font-medium transition-colors hover:text-primary",
-                isScrolled ? "text-muted-foreground" : "text-gray-200 hover:text-white"
+                isScrolled ? "text-muted-foreground" : "text-gray-300 hover:text-white"
               )}
             >
               {link.label}
@@ -63,7 +57,7 @@ export default function Header() {
         </nav>
 
         <div className="flex flex-1 items-center justify-end gap-4">
-          <Button asChild className="hidden md:inline-flex" variant={isScrolled ? "default" : "secondary"}>
+          <Button asChild className="hidden md:inline-flex">
             <Link href="#contacto">Contáctanos</Link>
           </Button>
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
@@ -77,7 +71,6 @@ export default function Header() {
               <div className="flex flex-col gap-6 p-6">
                 <Link href="#inicio" className="flex items-center space-x-3" onClick={() => setIsSheetOpen(false)}>
                   <Logo />
-                  <span className="text-xl font-bold">AutoPartes Finder</span>
                 </Link>
                 <nav className="flex flex-col gap-4">
                   {navLinks.map((link) => (

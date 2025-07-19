@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'AutoPartes Finder | Repuestos Originales Mercedes-Benz',
-  description: 'Distribuidor de confianza para repuestos originales Mercedes-Benz. Garantizamos calidad, precisión y el mejor servicio para tu vehículo.',
+  title: 'distrimercedes | Repuestos Originales Mercedes-Benz',
+  description: 'Distribuidor de confianza para repuestos originales Mercedes-Benz. Conduciendo tu confianza en cada pieza.',
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={inter.variable}>
+    <html lang="es" className={`${inter.variable} dark`}>
       <body className="bg-background text-foreground antialiased">
         {children}
         <Toaster />
