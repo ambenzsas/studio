@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 text-center md:grid-cols-4 md:text-left">
           <div className="md:col-span-1">
             <Link href="#inicio" className="inline-flex items-center gap-2 mb-4">
-              <Logo className="text-primary-foreground" />
+              <Logo className="h-12 w-auto" />
             </Link>
             <p className="text-sm text-muted-foreground">Conduciendo tu confianza en cada pieza.</p>
           </div>
