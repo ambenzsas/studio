@@ -7,17 +7,17 @@ import { EqLogo } from "@/components/icons/eq-logo";
 const models = [
   {
     name: "Clase C, E, S",
-    image: "https://placehold.co/800x600.png",
+    image: "https://images.unsplash.com/photo-1616422285623-13ff0162193c?q=80&w=1931&auto=format&fit=crop",
     hint: "mercedes sedan",
   },
   {
     name: "GLA, GLC, GLE, GLS",
-    image: "https://placehold.co/800x600.png",
+    image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=1964&auto=format&fit=crop",
     hint: "mercedes suv",
   },
   {
     name: "Clase G y AMG GT",
-    image: "https://placehold.co/800x600.png",
+    image: "https://images.unsplash.com/photo-1603584946343-05b7a1a7d1a4?q=80&w=1964&auto=format&fit=crop",
     hint: "mercedes g-class",
   },
 ];

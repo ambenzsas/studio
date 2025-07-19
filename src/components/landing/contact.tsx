@@ -46,7 +46,7 @@ export default function Contact() {
             </Card>
             <div className="mt-8">
               <Image
-                src="https://placehold.co/600x400.png"
+                src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?q=80&w=1931&auto=format&fit=crop"
                 alt="Mapa de ubicación de la tienda"
                 width={600}
                 height={400}

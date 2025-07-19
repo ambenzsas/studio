@@ -7,7 +7,7 @@ export default function About() {
         <div className="flex flex-col items-center gap-12 lg:flex-row">
           <div className="lg:w-1/2">
             <Image
-              src="https://placehold.co/1200x800.png"
+              src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop"
               alt="Interior de concesionario Mercedes-Benz"
               width={1200}
               height={800}
