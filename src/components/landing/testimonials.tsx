@@ -7,21 +7,21 @@ const testimonials = [
     quote: "La calidad de los repuestos es insuperable y el servicio al cliente es de primera. Encontré todo para mi C200 en un solo lugar. ¡Recomendadísimos!",
     name: "Juan Pérez",
     title: "Propietario, Mercedes-Benz C200 (2005)",
-    avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop",
     hint: "man smiling"
   },
   {
     quote: "Como taller, necesitamos proveedores confiables. distrimercedes nunca nos ha fallado. Entregas a tiempo y la certeza de que estamos instalando piezas originales.",
     name: "Taller Auto-Fix",
     title: "Cliente Corporativo",
-    avatar: "https://images.unsplash.com/photo-1621992135934-11a47f4f1073?q=80&w=1974&auto=format&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?q=80&w=2070&auto=format&fit=crop",
     hint: "mechanic garage"
   },
   {
     quote: "El equipo de asesoría me ayudó a identificar una pieza que llevaba semanas buscando para mi E-Class. Su conocimiento técnico es impresionante. ¡Gracias!",
     name: "Luisa Fernanda",
     title: "Propietaria, Mercedes-Benz E-Class (2008)",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop",
     hint: "woman professional"
   },
 ];

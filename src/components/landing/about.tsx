@@ -7,7 +7,7 @@ export default function About() {
         <div className="flex flex-col items-center gap-12 lg:flex-row-reverse lg:gap-16">
           <div className="lg:w-1/2">
             <Image
-              src="https://images.unsplash.com/photo-1614261180228-763424428676?q=80&w=2070&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop"
               alt="Taller de distrimercedes con Mercedes de los 2000"
               width={600}
               height={400}

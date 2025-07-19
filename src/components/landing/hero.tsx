@@ -7,7 +7,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 const heroImages = [
     {
-        src: "https://images.unsplash.com/photo-1576441050859-655a6390fd8f?q=80&w=2070&auto=format&fit=crop",
+        src: "https://images.unsplash.com/photo-1616422285623-13ff0162193c?q=80&w=1920&auto=format&fit=crop",
         alt: "Mercedes-Benz clásico de los años 2000",
         hint: "classic mercedes car"
     },
