@@ -4,7 +4,7 @@ import { Logo } from "@/components/icons/logo";
 
 export default function Footer() {
   return (
-    <footer className="bg-card text-background">
+    <footer className="bg-foreground text-background">
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 gap-8 text-center md:grid-cols-4 md:text-left">
           <div className="md:col-span-1">

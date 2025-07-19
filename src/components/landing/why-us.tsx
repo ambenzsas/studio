@@ -41,7 +41,7 @@ export default function WhyUs() {
                 <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-x-12 gap-y-12">
                     {advantages.map((advantage) => (
                         <div key={advantage.title} className="flex items-start space-x-6">
-                            <div className="flex-shrink-0 bg-card p-4 rounded-full shadow-md">
+                            <div className="flex-shrink-0 bg-secondary/50 p-4 rounded-full">
                                 {advantage.icon}
                             </div>
                             <div>

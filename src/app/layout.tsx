@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${inter.variable} dark`}>
+    <html lang="es" className={`${inter.variable}`}>
       <body className="bg-background text-foreground antialiased">
         {children}
         <Toaster />

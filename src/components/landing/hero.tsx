@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
 const heroImages = [
@@ -25,15 +25,16 @@ const heroImages = [
 
 export default function Hero() {
   return (
-    <section className="relative h-screen min-h-[700px] w-full text-white">
+    <section className="relative h-[60vh] min-h-[500px] w-full text-foreground flex items-center justify-center">
       <Carousel 
         opts={{ loop: true }}
         plugins={[
             Autoplay({
               delay: 5000,
+              stopOnInteraction: false,
             }),
           ]}
-        className="w-full h-full"
+        className="w-full h-full absolute inset-0"
       >
         <CarouselContent className="h-full">
           {heroImages.map((image, index) => (
@@ -47,19 +48,18 @@ export default function Hero() {
                   priority={index === 0}
                   data-ai-hint={image.hint}
                 />
-                <div className="absolute inset-0 bg-black/60" />
+                <div className="absolute inset-0 bg-black/50" />
               </div>
             </CarouselItem>
           ))}
         </CarouselContent>
       </Carousel>
 
-      <div className="absolute inset-0 z-10 flex h-full items-center justify-center">
-        <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-2xl">
+      <div className="relative z-10 container mx-auto px-6 text-center text-white">
+          <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-md">
             Conduciendo tu confianza en cada pieza
           </h1>
-          <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-200 md:text-xl">
+          <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-200 md:text-xl drop-shadow-md">
             Calidad, garantía y la precisión alemana que tu Mercedes-Benz merece. Somos tu distribuidor de confianza.
           </p>
           <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
@@ -68,14 +68,13 @@ export default function Hero() {
                 Ver Catálogo
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white bg-transparent text-white backdrop-blur-sm transition-colors hover:bg-white hover:text-foreground">
+            <Button asChild size="lg" variant="secondary">
               <Link href="#contacto">
                 Contáctanos
               </Link>
             </Button>
           </div>
         </div>
-      </div>
     </section>
   );
 }

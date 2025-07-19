@@ -3,7 +3,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -16,27 +16,23 @@ export default function Contact() {
           </p>
         </div>
         <div className="flex flex-col lg:flex-row gap-12 items-start">
-          <Card className="lg:w-1/2 w-full shadow-2xl bg-card">
+          <Card className="lg:w-1/2 w-full shadow-lg border-border/50 bg-card">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-6 text-foreground">Envíanos un Mensaje</h3>
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-muted-foreground mb-2">Nombre</label>
-                    <Input id="name" name="name" type="text" placeholder="Tu nombre completo" className="bg-background" />
+                    <Input id="name" name="name" type="text" placeholder="Nombre completo" className="bg-secondary/50"/>
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-muted-foreground mb-2">Correo</label>
-                    <Input id="email" name="email" type="email" placeholder="tu@email.com" className="bg-background" />
+                    <Input id="email" name="email" type="email" placeholder="tu@email.com" className="bg-secondary/50" />
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-muted-foreground mb-2">Teléfono</label>
-                  <Input id="phone" name="phone" type="tel" placeholder="Tu número de teléfono" className="bg-background"/>
+                  <Input id="phone" name="phone" type="tel" placeholder="Tu número de teléfono" className="bg-secondary/50"/>
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-muted-foreground mb-2">Mensaje</label>
-                  <Textarea id="message" name="message" placeholder="¿En qué podemos ayudarte?" rows={5} className="bg-background"/>
+                  <Textarea id="message" name="message" placeholder="¿En qué podemos ayudarte?" rows={5} className="bg-secondary/50"/>
                 </div>
                 <div className="text-center pt-2">
                   <Button type="submit" size="lg" className="w-full">Enviar Mensaje</Button>

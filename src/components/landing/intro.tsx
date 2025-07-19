@@ -1,4 +1,4 @@
-import { Car, Wrench, PackageCheck, Users } from "lucide-react";
+import { PackageCheck, Users, Car, Wrench } from "lucide-react";
 
 const features = [
   {
@@ -25,7 +25,7 @@ const features = [
 
 export default function Intro() {
   return (
-    <section className="bg-background py-20 lg:py-32">
+    <section className="bg-background py-20 lg:py-24">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-4xl mx-auto">
           <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl">La Precisión que tu Mercedes-Benz Merece</h2>
@@ -35,7 +35,7 @@ export default function Intro() {
         </div>
         <div className="mt-20 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {features.map((feature) => (
-            <div key={feature.title} className="flex flex-col items-center text-center p-6 rounded-lg transition-all hover:bg-card hover:shadow-xl">
+            <div key={feature.title} className="flex flex-col items-center text-center p-6 rounded-lg transition-all">
               <div className="mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
                 {feature.icon}
               </div>

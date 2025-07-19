@@ -38,12 +38,12 @@ export default function Testimonials() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="bg-card shadow-lg flex flex-col justify-between rounded-lg overflow-hidden">
+            <Card key={index} className="bg-card shadow-sm border-border/50 flex flex-col justify-between rounded-lg overflow-hidden">
               <CardContent className="p-8">
-                <Quote className="w-10 h-10 text-primary/30 mb-6" />
+                <Quote className="w-10 h-10 text-primary/20 mb-6" />
                 <p className="text-muted-foreground mb-6 italic text-base">"{testimonial.quote}"</p>
               </CardContent>
-              <div className="bg-black/20 px-8 py-4 flex items-center gap-4 border-t border-border">
+              <div className="bg-secondary/50 px-8 py-4 flex items-center gap-4 border-t border-border/50">
                   <Image src={testimonial.avatar} alt={testimonial.name} width={50} height={50} className="rounded-full object-cover aspect-square" data-ai-hint={testimonial.hint}/>
                   <div>
                     <p className="font-bold text-foreground">{testimonial.name}</p>

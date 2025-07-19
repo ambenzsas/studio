@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <section id="nosotros" className="py-20 lg:py-32 bg-card">
+    <section id="nosotros" className="py-20 lg:py-32 bg-secondary/50">
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-center gap-12 lg:flex-row-reverse lg:gap-16">
           <div className="lg:w-1/2">
@@ -11,7 +11,7 @@ export default function About() {
               alt="Taller de distrimercedes"
               width={600}
               height={400}
-              className="rounded-lg shadow-xl aspect-[3/2] object-cover"
+              className="rounded-lg shadow-lg aspect-[3/2] object-cover"
               data-ai-hint="car workshop"
             />
           </div>
