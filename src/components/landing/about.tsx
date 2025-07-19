@@ -7,12 +7,12 @@ export default function About() {
         <div className="flex flex-col items-center gap-12 lg:flex-row-reverse lg:gap-16">
           <div className="lg:w-1/2">
             <Image
-              src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9e?q=80&w=2070&auto=format&fit=crop"
-              alt="Taller de distrimercedes"
+              src="https://images.unsplash.com/photo-1614261180228-763424428676?q=80&w=2070&auto=format&fit=crop"
+              alt="Taller de distrimercedes con Mercedes de los 2000"
               width={600}
               height={400}
               className="rounded-lg shadow-lg aspect-[3/2] object-cover"
-              data-ai-hint="car workshop"
+              data-ai-hint="car workshop mercedes"
             />
           </div>
           <div className="lg:w-1/2">
