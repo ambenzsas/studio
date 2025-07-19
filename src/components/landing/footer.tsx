@@ -34,7 +34,7 @@ export default function Footer() {
            <div>
             <h3 className="text-base font-semibold mb-4 text-primary-foreground/90">Contacto</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Cr 127 14b‑70, Bogotá</li>
+              <li>Cra. 123 #14b-70, Bogotá</li>
               <li>+57 300 300 3000</li>
             </ul>
           </div>
