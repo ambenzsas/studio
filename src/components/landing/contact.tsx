@@ -48,14 +48,14 @@ export default function Contact() {
                     <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground">Dirección</p>
-                      <p className="text-muted-foreground">Cra. 123 #14b-70, Bogotá, Colombia</p>
+                      <p className="text-muted-foreground">Cra. 23 #77-12, Bogotá, Colombia</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
                     <Phone className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground">Teléfono</p>
-                      <p className="text-muted-foreground">+57 300 300 3000</p>
+                      <p className="text-muted-foreground">+57 310 2004168</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -68,7 +68,7 @@ export default function Contact() {
                 </div>
                 <div className="pt-4">
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.591646237622!2d-74.1507094!3d4.666675199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c8f8a18a0e9%3A0x65a882b79a744265!2sCra.%20123%20%2314b-70%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1722443003290!5m2!1ses!2sco"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6212133299413!2d-74.07223842491108!3d4.661701342111158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5658092261%3A0xb35a4d6f78816f1d!2sCra.%2023%20%2377-12%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1722444655979!5m2!1ses!2sco"
                         width="100%" 
                         height="350" 
                         style={{border:0}} 
