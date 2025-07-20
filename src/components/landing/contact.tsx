@@ -1,8 +1,4 @@
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Card, CardContent } from "@/components/ui/card";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function Contact() {
@@ -15,34 +11,10 @@ export default function Contact() {
             ¿Necesitas una cotización o tienes alguna consulta? Nuestro equipo de expertos está listo para ayudarte a encontrar la pieza perfecta para tu Mercedes.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row gap-12 items-start">
-          <Card className="lg:w-1/2 w-full shadow-lg border-border/50 bg-card">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-6 text-foreground">Envíanos un Mensaje</h3>
-              <form className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <Input id="name" name="name" type="text" placeholder="Nombre completo" className="bg-secondary/50"/>
-                  </div>
-                  <div>
-                    <Input id="email" name="email" type="email" placeholder="tu@email.com" className="bg-secondary/50" />
-                  </div>
-                </div>
-                <div>
-                  <Input id="phone" name="phone" type="tel" placeholder="Tu número de teléfono" className="bg-secondary/50"/>
-                </div>
-                <div>
-                  <Textarea id="message" name="message" placeholder="¿En qué podemos ayudarte?" rows={5} className="bg-secondary/50"/>
-                </div>
-                <div className="text-center pt-2">
-                  <Button type="submit" size="lg" className="w-full">Enviar Mensaje</Button>
-                </div>
-              </form>
-            </CardContent>
-          </Card>
-          <div className="lg:w-1/2 w-full">
+        <div className="flex justify-center">
+          <div className="w-full lg:w-2/3">
             <div className="space-y-6">
-                <h3 className="text-2xl font-bold mb-6 text-foreground">Información de Contacto</h3>
+                <h3 className="text-2xl font-bold mb-6 text-foreground text-center lg:text-left">Información de Contacto</h3>
                 <div className="space-y-4 text-lg">
                   <div className="flex items-start gap-4">
                     <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
