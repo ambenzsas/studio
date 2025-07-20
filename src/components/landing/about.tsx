@@ -22,7 +22,7 @@ export default function About() {
             </p>
             <div className="space-y-4 text-foreground">
               <p><strong>Misión:</strong> Ofrecer soluciones integrales en mantenimiento y accesorios de alta calidad para vehículos Mercedes-Benz en Colombia, asegurando la satisfacción y la confianza de nuestros clientes a través de un servicio experto y personalizado.</p>
-              <p><strong>Visión:</strong> Convertirnos en el distribuidor de referencia en Colombia, reconocidos por nuestra integridad, conocimiento y un compromiso inquebrantable con la satisfacción del cliente.</p>
+              <p><strong>Visión:</strong> Ser el principal importador y proveedor de soluciones integrales para vehículos Mercedes-Benz en Colombia, reconocidos por nuestra pasión y el compromiso inquebrantable con la autenticidad y la calidad en cada servicio y accesorio.</p>
             </div>
           </div>
         </div>
