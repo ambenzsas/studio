@@ -38,10 +38,8 @@ export default function Services() {
           ))}
         </div>
         <div className="text-center mt-16">
-          <Button variant="outline" size="lg" asChild>
-            <Link href="#contacto">
-              Consultar Catálogo
-            </Link>
+          <Button variant="outline" size="lg" disabled>
+            Consultar Catálogo (Próximamente)
           </Button>
         </div>
       </div>
