@@ -11,7 +11,7 @@ const testimonials = [
     hint: "man smiling"
   },
   {
-    quote: "Como taller, necesitamos proveedores confiables. distrimercedes nunca nos ha fallado. Entregas a tiempo y la certeza de que estamos instalando piezas originales.",
+    quote: "Como taller, necesitamos proveedores confiables. AM BENZ nunca nos ha fallado. Entregas a tiempo y la certeza de que estamos instalando piezas originales.",
     name: "Taller Auto-Fix",
     title: "Cliente Corporativo",
     avatar: "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?q=80&w=2070&auto=format&fit=crop",

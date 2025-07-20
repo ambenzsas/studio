@@ -62,7 +62,7 @@ export default function Contact() {
                     <Mail className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
-                      <Link href="mailto:contacto@distrimercedes.com" className="text-primary hover:underline">contacto@distrimercedes.com</Link>
+                      <Link href="mailto:contacto@ambenz.com" className="text-primary hover:underline">contacto@ambenz.com</Link>
                     </div>
                   </div>
                 </div>

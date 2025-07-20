@@ -14,20 +14,20 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
         y="30" 
         fontFamily="Inter, sans-serif" 
         fontSize="24" 
-        fontWeight="300"
-        className="fill-current"
-      >
-        distri
-      </text>
-      <text 
-        x="65" 
-        y="30" 
-        fontFamily="Inter, sans-serif" 
-        fontSize="24" 
         fontWeight="800"
         className="fill-current"
       >
-        mercedes
+        AM
+      </text>
+      <text 
+        x="50" 
+        y="30" 
+        fontFamily="Inter, sans-serif" 
+        fontSize="24" 
+        fontWeight="300"
+        className="fill-current"
+      >
+        BENZ S.A.S
       </text>
     </svg>
   );

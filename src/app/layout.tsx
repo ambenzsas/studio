@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'distrimercedes | Repuestos Originales Mercedes-Benz',
+  title: 'AM BENZ S.A.S | Repuestos Originales Mercedes-Benz',
   description: 'Distribuidor de confianza para repuestos originales Mercedes-Benz. Conduciendo tu confianza en cada pieza.',
 };
 
