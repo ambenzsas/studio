@@ -3,8 +3,8 @@ import { PackageCheck, Users, Car, Wrench } from "lucide-react";
 const features = [
   {
     icon: <PackageCheck className="h-10 w-10 text-primary" />,
-    title: "Importadores de repuestos y accesorios para Mercedes-Benz",
-    description: "Solo piezas 100% originales con la garantía oficial de fábrica Mercedes-Benz.",
+    title: "Repuestos Genuinos",
+    description: "Importadores de repuestos y accesorios para Mercedes-Benz.",
   },
   {
     icon: <Users className="h-10 w-10 text-primary" />,
