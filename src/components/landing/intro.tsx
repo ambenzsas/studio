@@ -8,8 +8,8 @@ const features = [
   },
   {
     icon: <Users className="h-10 w-10 text-primary" />,
-    title: "Asesoría Técnica Experta",
-    description: "Nuestro equipo está a tu disposición para identificar la pieza exacta que necesitas.",
+    title: "Asesoría Técnica",
+    description: "Nuestro equipo estará disponible para identificar lo que su vehículo necesita.",
   },
   {
     icon: <Car className="h-10 w-10 text-primary" />,
