@@ -36,6 +36,8 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Cra. 23 #77-12, Bogotá</li>
               <li>+57 310 2004168</li>
+              <li>+57 311 2093888</li>
+              <li>repuestosyserviciosambenz@gmail.com</li>
             </ul>
           </div>
         </div>

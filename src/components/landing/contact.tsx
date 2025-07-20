@@ -26,15 +26,17 @@ export default function Contact() {
                   <div className="flex items-start gap-4">
                     <Phone className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-semibold text-foreground">Teléfono</p>
+                      <p className="font-semibold text-foreground">Teléfonos</p>
                       <p className="text-muted-foreground">+57 310 2004168</p>
+                      <p className="text-muted-foreground">+57 311 2093888</p>
+                      <p className="text-muted-foreground">(601) 235 4282</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
                     <Mail className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
-                      <Link href="mailto:contacto@ambenz.com" className="text-primary hover:underline">contacto@ambenz.com</Link>
+                      <Link href="mailto:repuestosyserviciosambenz@gmail.com" className="text-primary hover:underline">repuestosyserviciosambenz@gmail.com</Link>
                     </div>
                   </div>
                 </div>
