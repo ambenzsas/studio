@@ -21,7 +21,7 @@ export default function About() {
               Desde nuestra fundación, en **distrimercedes** nos hemos dedicado con pasión a ser el puente entre la excelencia de la ingeniería alemana y los dueños de un Mercedes-Benz. Nacimos para solucionar la necesidad de repuestos originales de alta calidad con un servicio cercano y confiable.
             </p>
             <div className="space-y-4 text-foreground">
-              <p><strong>Misión:</strong> Ser el aliado número uno de nuestros clientes, garantizando el óptimo rendimiento y la seguridad de sus vehículos a través de repuestos 100% originales y una asesoría técnica inigualable.</p>
+              <p><strong>Misión:</strong> Ofrecer soluciones integrales en mantenimiento y accesorios de alta calidad para vehículos Mercedes-Benz en Colombia, asegurando la satisfacción y la confianza de nuestros clientes a través de un servicio experto y personalizado.</p>
               <p><strong>Visión:</strong> Convertirnos en el distribuidor de referencia en Colombia, reconocidos por nuestra integridad, conocimiento y un compromiso inquebrantable con la satisfacción del cliente.</p>
             </div>
           </div>
