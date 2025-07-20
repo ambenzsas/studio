@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Search } from "lucide-react";
 import { Logo } from "@/components/icons/logo";
 import { useState, useEffect } from "react";
@@ -70,6 +70,7 @@ export default function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left">
+              <SheetTitle className="sr-only">Menú de Navegación</SheetTitle>
               <div className="flex flex-col gap-6 p-6">
                 <Link href="#inicio" className="flex items-center space-x-3" onClick={() => setIsSheetOpen(false)}>
                   <Logo className="text-foreground"/>
