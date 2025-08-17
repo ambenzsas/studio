@@ -23,7 +23,7 @@ const heroImages = [
     },
     {
         src: "https://images.unsplash.com/photo-1541426345369-1d2f8875567a?q=80&w=2070&auto=format&fit=crop",
-        alt: "Detalle de un repuesto original de Mercedes-Benz",
+        alt: "Detalle de un repuesto de alta calidad para Mercedes-Benz",
         hint: "car part detail"
     }
 ]
@@ -65,7 +65,7 @@ export default function Hero() {
             Conduciendo tu confianza en cada pieza
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-200 md:text-xl drop-shadow-md">
-            Calidad, garantía y la precisión alemana que tu Mercedes-Benz merece. Somos tu distribuidor de confianza.
+            Calidad, garantía y la precisión que tu Mercedes-Benz merece. Somos tu proveedor de confianza.
           </p>
         </div>
     </section>

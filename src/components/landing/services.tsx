@@ -4,11 +4,11 @@ import { Award, UserCheck, ShieldCheck, Truck, Wrench, ScanSearch } from 'lucide
 import Link from 'next/link';
 
 const services = [
-  { icon: <Award className="h-8 w-8 text-primary" />, title: "Venta de Repuestos Originales", description: "Accede a nuestro inventario completo de piezas 100% genuinas, importadas directamente desde el fabricante." },
+  { icon: <Award className="h-8 w-8 text-primary" />, title: "Venta de Repuestos Homologados", description: "Accede a nuestro inventario completo de piezas homologadas de alta calidad, 100% confiables y garantizadas." },
   { icon: <Wrench className="h-8 w-8 text-primary" />, title: "Electricidad y Mecánica", description: "Soluciones completas en reparaciones eléctricas y mecánicas para mantener tu vehículo en óptimas condiciones." },
   { icon: <ScanSearch className="h-8 w-8 text-primary" />, title: "Servicio de Scanner", description: "Diagnóstico electrónico avanzado para identificar con precisión cualquier falla en tu Mercedes-Benz." },
   { icon: <UserCheck className="h-8 w-8 text-primary" />, title: "Asesoría Técnica", description: "Nuestro equipo de expertos te ayuda a identificar con precisión el repuesto que tu Mercedes necesita." },
-  { icon: <ShieldCheck className="h-8 w-8 text-primary" />, title: "Garantías Extendidas", description: "Compra con total tranquilidad. Ofrecemos garantías completas para todos nuestros componentes." },
+  { icon: <ShieldCheck className="h-8 w-8 text-primary" />, title: "Garantías Confiables", description: "Compra con total tranquilidad. Ofrecemos garantías completas para todos nuestros componentes." },
   { icon: <Truck className="h-8 w-8 text-primary" />, title: "Envíos a Nivel Nacional", description: "Recibe tus repuestos en la puerta de tu casa o taller, en cualquier lugar de Colombia, de forma rápida y segura." },
 ];
 

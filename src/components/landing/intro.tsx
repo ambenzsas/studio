@@ -3,8 +3,8 @@ import { PackageCheck, Users, Car, Wrench } from "lucide-react";
 const features = [
   {
     icon: <PackageCheck className="h-10 w-10 text-primary" />,
-    title: "Repuestos Genuinos",
-    description: "Importadores de repuestos y accesorios para Mercedes-Benz.",
+    title: "Repuestos Homologados",
+    description: "Importadores de repuestos y accesorios de alta calidad para Mercedes-Benz.",
   },
   {
     icon: <Users className="h-10 w-10 text-primary" />,
@@ -30,7 +30,7 @@ export default function Intro() {
         <div className="text-center max-w-4xl mx-auto">
           <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl">La Precisión que tu Mercedes-Benz Merece</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            En AM BENZ, somos tu aliado de confianza. Nos dedicamos a proveer exclusivamente repuestos originales Mercedes-Benz para que tu vehículo mantenga el rendimiento, la seguridad y la elegancia con la que fue diseñado.
+            En AM BENZ, somos tu aliado de confianza. Nos dedicamos a proveer exclusivamente repuestos homologados para que tu vehículo mantenga el rendimiento, la seguridad y la elegancia con la que fue diseñado.
           </p>
         </div>
         <div className="mt-20 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">

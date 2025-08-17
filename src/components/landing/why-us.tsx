@@ -3,13 +3,13 @@ import { CheckCircle, Award, Globe, Users, TrendingUp } from "lucide-react";
 const advantages = [
     {
         icon: <CheckCircle className="w-10 h-10 text-primary" />,
-        title: "Originalidad Certificada",
-        description: "Cada pieza está certificada por Mercedes-Benz, asegurando un ajuste perfecto y rendimiento óptimo."
+        title: "Calidad Certificada",
+        description: "Cada pieza está certificada para asegurar un ajuste perfecto y rendimiento óptimo en tu Mercedes-Benz."
     },
     {
         icon: <Award className="w-10 h-10 text-primary" />,
-        title: "Calidad Garantizada",
-        description: "Tu inversión está protegida. Todos nuestros productos cuentan con la garantía oficial de fábrica."
+        title: "Totalmente Garantizado",
+        description: "Tu inversión está protegida. Todos nuestros productos cuentan con una garantía de calidad y funcionamiento."
     },
     {
         icon: <Globe className="w-10 h-10 text-primary" />,
@@ -19,7 +19,7 @@ const advantages = [
     {
         icon: <TrendingUp className="w-10 h-10 text-primary" />,
         title: "Precios Competitivos",
-        description: "Ofrecemos la mejor relación calidad-precio del mercado, sin sacrificar la autenticidad de los repuestos."
+        description: "Ofrecemos la mejor relación calidad-precio del mercado, sin sacrificar la confiabilidad de los repuestos."
     },
     {
         icon: <Users className="w-10 h-10 text-primary" />,
@@ -35,7 +35,7 @@ export default function WhyUs() {
                 <div className="text-center mb-16">
                     <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl">¿Por Qué Elegir AM BENZ S.A.S?</h2>
                     <p className="mx-auto mt-4 max-w-3xl text-lg text-muted-foreground">
-                        Más que un proveedor, somos tu socio estratégico. Te ofrecemos tranquilidad, confianza y el respaldo de la excelencia alemana.
+                        Más que un proveedor, somos tu socio estratégico. Te ofrecemos tranquilidad, confianza y el respaldo de la más alta calidad.
                     </p>
                 </div>
                 <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-x-12 gap-y-12">
