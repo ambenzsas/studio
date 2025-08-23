@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'AM BENZ S.A.S | Repuestos Homologados para Mercedes-Benz',
-  description: 'Tu proveedor de confianza para repuestos homologados de alta calidad para Mercedes-Benz. Conduciendo tu confianza en cada pieza.',
+  title: 'AM BENZ S.A.S | Repuestos Originales y Homologados para Mercedes-Benz',
+  description: 'Tu proveedor de confianza para repuestos originales y homologados de alta calidad para Mercedes-Benz. Conduciendo tu confianza en cada pieza.',
 };
 
 export default function RootLayout({
