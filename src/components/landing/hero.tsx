@@ -8,19 +8,19 @@ import Autoplay from "embla-carousel-autoplay";
 const heroImages = [
     {
         src: "/images/hero-1.jpg",
-        alt: "Imagen 1",
+        alt: "Auto de lujo en la ciudad",
     },
     {
         src: "/images/hero-2.jpg",
-        alt: "Imagen 2",
+        alt: "Frente de auto deportivo",
     },
     {
         src: "/images/hero-3.jpg",
-        alt: "Imagen 3",
+        alt: "Auto clásico en exhibición",
     },
     {
         src: "/images/hero-4.jpg",
-        alt: "Imagen 4",
+        alt: "Interior de un auto moderno",
     }
 ]
 
