@@ -24,7 +24,7 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
         y="30" 
         fontFamily="Inter, sans-serif" 
         fontSize="24" 
-        fontWeight="300"
+        fontWeight="800"
         className="fill-current"
       >
         BENZ SAS
