@@ -1,5 +1,15 @@
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
+import { WhatsappIcon } from "@/components/icons/whatsapp";
+
+const phoneNumbers = [
+  { number: "+57 310 2004168", isMobile: true },
+  { number: "+57 311 2093888", isMobile: true },
+  { number: "+57 320 5250149", isMobile: true },
+  { number: "(601) 235 4282", isMobile: false },
+];
+
+const message = "Hola, me contacto desde la pagina web";
 
 export default function Contact() {
   return (
@@ -27,9 +37,21 @@ export default function Contact() {
                     <Phone className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground">Teléfonos</p>
-                      <p className="text-muted-foreground">+57 310 2004168</p>
-                      <p className="text-muted-foreground">+57 311 2093888</p>
-                      <p className="text-muted-foreground">(601) 235 4282</p>
+                      <div className="flex flex-col gap-1">
+                        {phoneNumbers.map(({number, isMobile}) => {
+                          const whatsappUrl = `https://wa.me/${number.replace(/\s/g, '')}?text=${encodeURIComponent(message)}`;
+                          return (
+                            <div key={number} className="flex items-center gap-2 text-muted-foreground">
+                              <span>{number}</span>
+                              {isMobile && (
+                                <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label={`Contactar a ${number} por WhatsApp`}>
+                                  <WhatsappIcon className="h-5 w-5 text-[#25D366] hover:scale-110 transition-transform"/>
+                                </Link>
+                              )}
+                            </div>
+                          )
+                        })}
+                      </div>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">

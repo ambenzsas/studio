@@ -29,6 +29,7 @@ export default function Footer() {
               <li>Cra. 23 #77-12, Bogotá</li>
               <li>+57 310 2004168</li>
               <li>+57 311 2093888</li>
+              <li>+57 320 5250149</li>
               <li>ambenzsas@hotmail.com</li>
             </ul>
           </div>
