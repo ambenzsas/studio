@@ -15,13 +15,13 @@ export default function About() {
               <p><strong>Visión:</strong> Ser el principal importador y proveedor de soluciones integrales para vehículos Mercedes-Benz en Colombia, reconocidos por nuestra pasión y el compromiso inquebrantable con la calidad en cada servicio y accesorio.</p>
             </div>
           </div>
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 flex items-center">
             <Image
               src="/images/Nuestra Historia.jpg"
-              alt="Imagen sobre nosotros"
+              alt="Taller de AM BENZ con mercedes de los 2000"
               width={600}
-              height={400}
-              className="rounded-lg shadow-lg aspect-[3/2] object-cover"
+              height={450}
+              className="rounded-lg shadow-lg aspect-video object-cover w-full"
             />
           </div>
         </div>
