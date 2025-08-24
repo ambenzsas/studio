@@ -14,7 +14,7 @@ const features = [
   {
     icon: <Car className="h-10 w-10 text-primary" />,
     title: "Para todos los Modelos",
-    description: "Contamos con un amplio stock para sedanes, SUVs, deportivos y clásicos.",
+    description: "Contamos con un amplio stock para tu vehículo.",
   },
   {
     icon: <Wrench className="h-10 w-10 text-primary" />,
