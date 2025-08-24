@@ -12,7 +12,6 @@ export default function About() {
               width={600}
               height={400}
               className="rounded-lg shadow-lg aspect-[3/2] object-cover"
-              data-ai-hint="car workshop mercedes"
             />
           </div>
           <div className="lg:w-1/2">

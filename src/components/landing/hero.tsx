@@ -8,23 +8,19 @@ import Autoplay from "embla-carousel-autoplay";
 const heroImages = [
     {
         src: "/images/hero-1.jpg",
-        alt: "Mercedes-Benz clásico de los años 2000",
-        hint: "classic mercedes car"
+        alt: "Auto Mercedes-Benz blanco moderno",
     },
     {
         src: "/images/hero-2.jpg",
-        alt: "Mercedes-Benz deportivo amarillo",
-        hint: "yellow mercedes sports"
+        alt: "Auto Mercedes-Benz deportivo amarillo",
     },
     {
         src: "/images/hero-3.jpg",
-        alt: "Mercedes-Benz modelo moderno en una carretera",
-        hint: "modern mercedes road"
+        alt: "Auto Mercedes-Benz en carretera",
     },
     {
         src: "/images/hero-4.jpg",
-        alt: "Detalle de un repuesto de alta calidad para Mercedes-Benz",
-        hint: "car part detail"
+        alt: "Detalle de repuesto para auto",
     }
 ]
 
@@ -51,7 +47,6 @@ export default function Hero() {
                   fill
                   className="object-cover"
                   priority={index === 0}
-                  data-ai-hint={image.hint}
                 />
                 <div className="absolute inset-0 bg-black/50" />
               </div>
