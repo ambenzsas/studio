@@ -8,19 +8,19 @@ import Autoplay from "embla-carousel-autoplay";
 const heroImages = [
     {
         src: "/images/hero-1.jpg",
-        alt: "Auto Mercedes-Benz blanco moderno",
+        alt: "Imagen 1",
     },
     {
         src: "/images/hero-2.jpg",
-        alt: "Auto Mercedes-Benz deportivo amarillo",
+        alt: "Imagen 2",
     },
     {
         src: "/images/hero-3.jpg",
-        alt: "Auto Mercedes-Benz en carretera",
+        alt: "Imagen 3",
     },
     {
         src: "/images/hero-4.jpg",
-        alt: "Detalle de repuesto para auto",
+        alt: "Imagen 4",
     }
 ]
 
