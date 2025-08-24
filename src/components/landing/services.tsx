@@ -4,37 +4,37 @@ import Image from "next/image";
 
 const services = [
   {
-    image: "/images/Venta-de-Repuestos-Originales-y-Homologados.jpg",
+    image: "/images/Venta de Repuestos Originales y Homologados.jpg",
     title: "Venta de Repuestos Originales y Homologados",
     description: "Accede a nuestro inventario completo de piezas originales y homologadas de alta calidad, 100% confiables y garantizadas.",
     hint: "car parts",
   },
   {
-    image: "/images/Electricidad-y-Mecanica.jpg",
+    image: "/images/Electricidad y Mecanica.jpg",
     title: "Electricidad y Mecánica",
     description: "Soluciones completas en reparaciones eléctricas y mecánicas para mantener tu vehículo en óptimas condiciones.",
     hint: "car engine",
   },
   {
-    image: "/images/Servicio-de-Scanner.jpg",
+    image: "/images/Servicio de Scanner.jpg",
     title: "Servicio de Scanner",
     description: "Diagnóstico electrónico avanzado para identificar con precisión cualquier falla en tu Mercedes-Benz.",
     hint: "car diagnostic",
   },
   {
-    image: "/images/Asesoria-Tecnica.jpg",
+    image: "/images/Asesoria Tecnica.jpg",
     title: "Asesoría Técnica",
     description: "Nuestro equipo de expertos te ayuda a identificar con precisión el repuesto que tu Mercedes necesita.",
     hint: "mechanic explaining",
   },
   {
-    image: "/images/Garantias-Confiables.jpg",
+    image: "/images/Garantias Confiables.jpg",
     title: "Garantías Confiables",
     description: "Compra con total tranquilidad. Ofrecemos garantías completas para todos nuestros componentes.",
     hint: "warranty stamp",
   },
   {
-    image: "/images/Envios-a-Nivel-Nacional.jpg",
+    image: "/images/Envios a Nivel Nacional.jpg",
     title: "Envíos a Nivel Nacional",
     description: "Recibe tus repuestos en la puerta de tu casa o taller, en cualquier lugar de Colombia, de forma rápida y segura.",
     hint: "delivery truck",
