@@ -7,7 +7,7 @@ export default function About() {
         <div className="flex flex-col items-center gap-12 lg:flex-row-reverse lg:gap-16">
           <div className="lg:w-1/2">
             <Image
-              src="/images/about.jpg"
+              src="/images/Nuestra Historia.jpg"
               alt="Taller de AM BENZ con Mercedes de los 2000"
               width={600}
               height={400}

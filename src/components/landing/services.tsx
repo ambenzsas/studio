@@ -1,15 +1,44 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Award, UserCheck, ShieldCheck, Truck, Wrench, ScanSearch } from 'lucide-react';
-import Link from 'next/link';
+import Image from "next/image";
 
 const services = [
-  { icon: <Award className="h-8 w-8 text-primary" />, title: "Venta de Repuestos Originales y Homologados", description: "Accede a nuestro inventario completo de piezas originales y homologadas de alta calidad, 100% confiables y garantizadas." },
-  { icon: <Wrench className="h-8 w-8 text-primary" />, title: "Electricidad y Mecánica", description: "Soluciones completas en reparaciones eléctricas y mecánicas para mantener tu vehículo en óptimas condiciones." },
-  { icon: <ScanSearch className="h-8 w-8 text-primary" />, title: "Servicio de Scanner", description: "Diagnóstico electrónico avanzado para identificar con precisión cualquier falla en tu Mercedes-Benz." },
-  { icon: <UserCheck className="h-8 w-8 text-primary" />, title: "Asesoría Técnica", description: "Nuestro equipo de expertos te ayuda a identificar con precisión el repuesto que tu Mercedes necesita." },
-  { icon: <ShieldCheck className="h-8 w-8 text-primary" />, title: "Garantías Confiables", description: "Compra con total tranquilidad. Ofrecemos garantías completas para todos nuestros componentes." },
-  { icon: <Truck className="h-8 w-8 text-primary" />, title: "Envíos a Nivel Nacional", description: "Recibe tus repuestos en la puerta de tu casa o taller, en cualquier lugar de Colombia, de forma rápida y segura." },
+  {
+    image: "/images/Venta de Repuestos Originales y Homologados.jpg",
+    title: "Venta de Repuestos Originales y Homologados",
+    description: "Accede a nuestro inventario completo de piezas originales y homologadas de alta calidad, 100% confiables y garantizadas.",
+    hint: "car parts shelf",
+  },
+  {
+    image: "/images/Electricidad y Mecanica.jpg",
+    title: "Electricidad y Mecánica",
+    description: "Soluciones completas en reparaciones eléctricas y mecánicas para mantener tu vehículo en óptimas condiciones.",
+    hint: "car engine mechanic",
+  },
+  {
+    image: "/images/Servicio de Scanner.jpg",
+    title: "Servicio de Scanner",
+    description: "Diagnóstico electrónico avanzado para identificar con precisión cualquier falla en tu Mercedes-Benz.",
+    hint: "car diagnostic scanner",
+  },
+  {
+    image: "/images/Asesoria Tecnica.jpg",
+    title: "Asesoría Técnica",
+    description: "Nuestro equipo de expertos te ayuda a identificar con precisión el repuesto que tu Mercedes necesita.",
+    hint: "technician giving advice",
+  },
+  {
+    image: "/images/Garantias Confiables.jpg",
+    title: "Garantías Confiables",
+    description: "Compra con total tranquilidad. Ofrecemos garantías completas para todos nuestros componentes.",
+    hint: "warranty stamp certificate",
+  },
+  {
+    image: "/images/Envíos a Nivel Nacional.jpg",
+    title: "Envíos a Nivel Nacional",
+    description: "Recibe tus repuestos en la puerta de tu casa o taller, en cualquier lugar de Colombia, de forma rápida y segura.",
+    hint: "delivery truck package",
+  },
 ];
 
 export default function Services() {
@@ -24,11 +53,17 @@ export default function Services() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {services.map((service) => (
-            <Card key={service.title} className="group overflow-hidden shadow-sm transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg bg-card text-left p-2 border-border/50">
-              <CardHeader className="flex-row items-center gap-4">
-                <div className="p-3 bg-primary/10 rounded-md">
-                  {service.icon}
-                </div>
+            <Card key={service.title} className="group overflow-hidden shadow-sm transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg bg-card text-left border-border/50 flex flex-col">
+              <div className="relative h-48 w-full">
+                <Image
+                  src={service.image}
+                  alt={`Imagen representativa de ${service.title}`}
+                  fill
+                  className="object-cover"
+                  data-ai-hint={service.hint}
+                />
+              </div>
+              <CardHeader className="flex-grow">
                 <CardTitle className="text-foreground text-xl">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
