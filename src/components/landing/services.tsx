@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const services = [
   {
-    image: "/images/Venta-de-Repuestos.jpg",
+    image: "/images/Venta-de-Repuestos-Originales-y-Homologados.jpg",
     title: "Venta de Repuestos Originales y Homologados",
     description: "Accede a nuestro inventario completo de piezas originales y homologadas de alta calidad, 100% confiables y garantizadas.",
     hint: "car parts",
