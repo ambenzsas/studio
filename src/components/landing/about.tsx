@@ -7,7 +7,7 @@ export default function About() {
         <div className="flex flex-col items-center gap-12 lg:flex-row-reverse lg:gap-16">
           <div className="lg:w-1/2">
             <Image
-              src="/images/Nuestra Historia.jpg"
+              src="/images/about.jpg"
               alt="Taller de AM BENZ con Mercedes de los 2000"
               width={600}
               height={400}
@@ -17,7 +17,7 @@ export default function About() {
           <div className="lg:w-1/2">
             <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl mb-4">Nuestra Historia</h2>
             <p className="text-muted-foreground mb-6 text-lg">
-              AM BENZ fue constituida en febrero del año 2017 y desde entonces, nos hemos dedicado a construir y consolidar la confianza de cada cliente, ofreciéndoles la tranquilidad de saber que su vehículo está en manos de expertos.
+              AM BENZ S A S fue constituida en febrero del año 2017 y desde entonces, nos hemos dedicado a construir y consolidar la confianza de cada cliente, ofreciéndoles la tranquilidad de saber que su vehículo está en manos de expertos.
             </p>
             <div className="space-y-4 text-foreground">
               <p><strong>Misión:</strong> Ofrecer soluciones integrales en mantenimiento y accesorios de alta calidad para vehículos Mercedes-Benz en Colombia, asegurando la satisfacción y la confianza de nuestros clientes a través de un servicio experto y personalizado.</p>

@@ -27,7 +27,7 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
         fontWeight="800"
         className="fill-current"
       >
-        BENZ SAS
+        BENZ S A S
       </text>
     </svg>
   );

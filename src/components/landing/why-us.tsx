@@ -33,7 +33,7 @@ export default function WhyUs() {
         <section id="ventajas" className="py-20 lg:py-32 bg-background">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl">¿Por Qué Elegir AM BENZ SAS?</h2>
+                    <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl">¿Por Qué Elegir AM BENZ S A S?</h2>
                     <p className="mx-auto mt-4 max-w-3xl text-lg text-muted-foreground">
                         Más que un proveedor, somos tu socio estratégico. Te ofrecemos tranquilidad, confianza y el respaldo de la más alta calidad.
                     </p>

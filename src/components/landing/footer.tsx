@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-border/20 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} AM BENZ SAS. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} AM BENZ S A S. Todos los derechos reservados.</p>
           <p className="mt-2">
             <Link href="#" className="text-muted-foreground hover:text-primary-foreground transition-colors">Política de Privacidad</Link>
             <span className="mx-2">|</span>
