@@ -1,0 +1,1 @@
+Este archivo es un placeholder para crear el directorio /public/images. Puedes eliminarlo y subir aquí las imágenes de tu sitio web.

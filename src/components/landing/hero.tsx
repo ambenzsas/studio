@@ -7,22 +7,22 @@ import Autoplay from "embla-carousel-autoplay";
 
 const heroImages = [
     {
-        src: "https://images.unsplash.com/photo-1616422285623-13ff0162193c?q=80&w=1920&auto=format&fit=crop",
+        src: "/images/hero-1.jpg",
         alt: "Mercedes-Benz clásico de los años 2000",
         hint: "classic mercedes car"
     },
     {
-        src: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop",
+        src: "/images/hero-2.jpg",
         alt: "Mercedes-Benz deportivo amarillo",
         hint: "yellow mercedes sports"
     },
     {
-        src: "https://images.unsplash.com/photo-1617808934350-1c5750ee3a85?q=80&w=2070&auto=format&fit=crop",
+        src: "/images/hero-3.jpg",
         alt: "Mercedes-Benz modelo moderno en una carretera",
         hint: "modern mercedes road"
     },
     {
-        src: "https://images.unsplash.com/photo-1541426345369-1d2f8875567a?q=80&w=2070&auto=format&fit=crop",
+        src: "/images/hero-4.jpg",
         alt: "Detalle de un repuesto de alta calidad para Mercedes-Benz",
         hint: "car part detail"
     }
@@ -65,7 +65,7 @@ export default function Hero() {
             Conduciendo tu confianza en cada pieza
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-200 md:text-xl drop-shadow-md">
-            Calidad, garantía y la precisión que tu Mercedes-Benz merece. Somos tu proveedor de confianza.
+            Calidad, garantía y la precisión que tu Mercedes-Benz merece. Somos tu proveedor de confianza para repuestos originales y homologados.
           </p>
         </div>
     </section>
