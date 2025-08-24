@@ -4,11 +4,11 @@ export default function About() {
   return (
     <section id="nosotros" className="py-20 lg:py-32 bg-secondary/50">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col items-center gap-12 lg:flex-row-reverse lg:gap-16">
+        <div className="flex flex-col items-center gap-12 lg:flex-row lg:gap-16">
           <div className="lg:w-1/2">
             <Image
               src="/images/Nuestra Historia.jpg"
-              alt="Imagen sobre nosotros"
+              alt="Taller de AM BENZ con un Mercedes de los 2000"
               width={600}
               height={400}
               className="rounded-lg shadow-lg aspect-[3/2] object-cover"
